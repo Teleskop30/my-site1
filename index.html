@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <!-- Основная страница, сразу отображается -->
+        <div id="mainPage">
+            <h1 class="pageTitle">Участники</h1>
+            <ul id="participantsList">
+                <li data-info="Игнат - Наш молодец! Наш Динамо-Боец!">Игнат</li>
+                <li data-info="Ильмир - Наш учитель! Великий предвадитель!">Ильмир</li>
+                <li data-info="Александр - Умён. Силён и всегда в Москве! Приди ко мне!">Александр</li>
+                <li data-info="Егор - Наш работяга! Не увалень, не скряга! Разодльно гуляет, всех созывает!>Егор</li>
+                <li data-info="Виталий - Наш Виталий главный кекс: у кого-то скоро секс!">Виталий</li>
+                <li data-info="Никита - Князь Южки и владыка Динамо! Кто же это? Наш Некит! Некит-зазывало!">Никита</li>
+                <li data-info="Anonim - Пользователь получил удалённый доступ к Вашему устройству.">Anonim</li>
+            </ul>
+
+            <div id="modal" style="display:none;">
+                <div id="modalContent"></div>
+                <button id="closeBtn">Закрыть</button>
+            </div>
+
+            <h2 class="eventInfo">Дорогой друг, приглашаю тебя на мероприятие по случаю рождения прекрасного человека! Мероприятие состоится ориентировочно в 20:00 по адресу Советская, 14 в StLegend. Ориентировочно, длительность мероприятия - 2 часа</h2>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
